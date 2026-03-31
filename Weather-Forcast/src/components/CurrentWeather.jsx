@@ -31,7 +31,7 @@ export function CurrentWeather() {
         </p>
       </div>
 
-      <div className="flex items-center justify-center gap-4 mb-2 w-full">
+      <div className="flex items-center justify-center gap-4 mb-2">
         <img
           src={weatherIcon}
           alt={current.condition.text}
