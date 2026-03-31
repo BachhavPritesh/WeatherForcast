@@ -23,7 +23,7 @@ export function SearchBar() {
   }, []);
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-xl mx-auto mb-4">
+    <form onSubmit={handleSubmit} className="w-full max-w-xl mx-auto mb-6">
       <div className="flex items-center gap-3">
         <div className="relative flex-1">
           <input
