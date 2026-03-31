@@ -2,6 +2,7 @@ import { WeatherProvider } from './context/WeatherContext.jsx';
 import { useWeatherContext } from './context/useWeatherContext.js';
 import { useTheme } from './context/useTheme.js';
 import { SearchBar } from './components/SearchBar';
+import { RecentSearches } from './components/RecentSearches';
 import { CurrentWeather } from './components/CurrentWeather';
 import { Forecast } from './components/Forecast';
 import { UnitToggle } from './components/UnitToggle';
@@ -40,6 +41,7 @@ function WeatherApp() {
 
         <SearchBar />
         <UnitToggle />
+        <RecentSearches />
 
         {error && (
           <div className={`backdrop-blur-md border rounded-2xl p-4 mb-6 text-center ${
