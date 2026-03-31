@@ -26,6 +26,12 @@ function WeatherApp() {
           <div className="absolute -bottom-40 left-1/2 w-96 h-96 bg-pink-500/30 rounded-full blur-3xl animate-blob animate-blob-delay-2" />
         </div>
       )}
+      {theme === 'light' && (
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-20 -right-20 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl animate-blob" />
+          <div className="absolute top-1/2 -left-20 w-64 h-64 bg-yellow-200/40 rounded-full blur-3xl animate-blob animate-blob-delay-1" />
+        </div>
+      )}
 
       <MobileMenu />
 
