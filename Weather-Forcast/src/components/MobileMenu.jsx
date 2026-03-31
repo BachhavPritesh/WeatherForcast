@@ -14,7 +14,7 @@ export function MobileMenu() {
       <div className={`absolute right-0 top-0 h-full w-80 ${theme === 'dark' ? 'bg-[#1a1a2e]/95' : 'bg-white/95'} backdrop-blur-md shadow-2xl p-6`}>
         <div className="flex justify-between items-center mb-8">
           <h2 className={`text-xl font-semibold ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
-            Settings
+            Menu
           </h2>
           <button
             onClick={closeMobileMenu}
